@@ -56,7 +56,7 @@ function show(response) {
 			response.end();
 		}
 		else {
-			reponse.writeHead(200, {"Content-Type": "image/png"});
+			response.writeHead(200, {"Content-Type": "image/png"});
 			response.write(file, "binary");
 			response.end();
 		}
